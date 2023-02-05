@@ -1,0 +1,31 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+
+.square{
+  height: 3em;
+  width: 3em;
+  background-color: white;
+  border-radius: 0;
+  font-size: 20pt;
+  border: 1px solid gray;
+  padding: 0;
+}
+
+.flex-container{
+  display: flex;
+
+}
+
+.game{
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.winner-banner{
+  height: 30px;
+}
